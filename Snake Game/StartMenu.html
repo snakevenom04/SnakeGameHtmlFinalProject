@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game Final Project by Ananya</title>
+  <link rel="stylesheet" href="StartMenu.css">
+</head>
+<body>
+
+<h1>Classic Snake Game</h1>
+
+<form action="index.html" id="start"></form>
+<div class="container">
+  <div id="menu">
+<button type= "submit" class="button1" form="start">START</button><br>
+<button type= "button" class="button2" onclick="info()">ABOUT</button><br>
+
+  </div>
+  
+  <div id="about">
+  <p id="info"></p>
+  
+  </div>
+  
+  <script> 
+    function info() {
+        document.getElementById("info").style.border ="2px solid #008CBA";
+        document.getElementById("info").innerHTML = "A colorful remake of the classic snake game by Ananya Trivedi.</br>Use your arrow keys to control the snake. Hitting a part of the snake's body or the edge will end the game!</br> Good Luck! ";
+      }
+    </script>
+</div>
+</body>
+</html
